@@ -1,0 +1,7 @@
+.primary-button {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  text-decoration: none;
+  font-family: 'Comfortaa', sans-serif;
+  border-radius: 5px;
+}
