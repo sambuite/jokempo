@@ -1,0 +1,7 @@
+.main-footer {
+  margin: 0 var(--gap-medium);
+}
+
+.main-footer > .simple-subtitle {
+  font-family: 'Helvetica', sans-serif;
+}

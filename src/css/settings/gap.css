@@ -1,3 +1,6 @@
 :root {
   --gap-small: 22px;
+  --gap-smaller: 15px;
+  --gap-medium: 30px;
+  --gap-big: 60px;
 }

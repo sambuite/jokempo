@@ -4,3 +4,9 @@
   font-family: 'Comfortaa', sans-serif;
   font-weight: bold;
 }
+
+.simple-action.-light {
+  color: var(--color-base-light);
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.main-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: url('../../images/404.png') no-repeat;
+  background-position: center;
+}
+
+.main-stage > .simple-title {
+  font-size: 32px;
+  margin-bottom: var(--gap-smaller);
+}
+
+.main-stage > .simple-subtitle {
+  font-size: 22px;
+  margin-bottom: var(--gap-big);
+}
+
+.main-stage > .primary-button {
+  width: 180px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: var(--gap-smaller);
+  font-size: 18px;
+}
+
+.main-stage > .simple-action {
+  font-size: 18px;
+}

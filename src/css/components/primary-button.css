@@ -3,5 +3,11 @@
   background-color: var(--color-secondary);
   text-decoration: none;
   font-family: 'Comfortaa', sans-serif;
-  border-radius: 5px;
+  border-radius: 6px;
+}
+
+.primary-button.-dark {
+  color: var(--color-base);
+  font-family: 'Bitter', serif;
+  font-weight: bold;
 }
