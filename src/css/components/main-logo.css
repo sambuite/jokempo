@@ -1,4 +1,5 @@
 .main-logo {
   color: var(--color-secondary);
   font-family: 'Bitter', serif;
+  font-weight: bold;
 }

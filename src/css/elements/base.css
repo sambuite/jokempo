@@ -1,5 +1,6 @@
 body {
   background-color: var(--color-primary);
+  overflow: unset;
 }
 
 hr {
@@ -9,4 +10,14 @@ hr {
 
 nav a {
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  background: var(--color-secondary); 
 }

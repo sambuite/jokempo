@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 80vh;
-  background: url('../../images/404.png') no-repeat;
+  background: url('../../images/404.svg') no-repeat;
   background-position: center;
 }
 
@@ -29,4 +29,8 @@
 
 .main-stage > .simple-action {
   font-size: 18px;
+}
+
+.main-stage > .simple-action:hover {
+  color: var(--color-base);
 }

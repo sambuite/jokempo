@@ -2,12 +2,23 @@
   color: var(--color-primary);
   background-color: var(--color-secondary);
   text-decoration: none;
+  font-weight: bold;
   font-family: 'Comfortaa', sans-serif;
   border-radius: 6px;
+  transition: 0.4s;
+}
+
+.primary-button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.primary-button.-dark:hover {
+  background-color: var(--color-base-light);
+  color: var(--color-secondary);
 }
 
 .primary-button.-dark {
   color: var(--color-base);
   font-family: 'Bitter', serif;
-  font-weight: bold;
 }
